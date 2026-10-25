@@ -40,6 +40,13 @@ These are CAD previews, not photographs of the assembled board.
 
 ![PCB 3D back preview](assets/pcb-3d-back.jpg)
 
+## Design and manufacturing files
+
+- [Proteus project](proteus/carte_laffont.pdsprj) with the schematic and PCB layout
+- [Gerber and CAM export](manufacturing/gerber-cadcam.zip) for the top and bottom copper, silk screen, board profile and drill files
+
+Check the Gerber layer mapping, board outline and drill settings with a PCB manufacturer before ordering.
+
 ## Build and validation
 
 The fabrication dossier reports that the PCB was fabricated, populated, soldered and functionally checked. The uploaded dossier lists test procedures and expected outcomes but does not include numerical measurement results or a photograph of the assembled prototype.
@@ -48,8 +55,7 @@ The dossier also describes some component values as used or planned; check the f
 
 ## Repository contents
 
+- Proteus project source and Gerber/CAM fabrication export
 - Schematic screenshot
 - PCB layout screenshots
 - 3D CAD previews
-
-The native CAD source project and a photograph of the assembled board are not included in this initial upload.
